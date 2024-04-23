@@ -73,10 +73,10 @@ def main():
     university_rating = st.number_input('University Rating', min_value=1, max_value=5, value=1, step=1)
 
     # SOP
-    sop = st.number_input('SOP', min_value=1.0, max_value=5.0, value=1.0, step=0.1)
+    sop = st.number_input('SOP (Statement of Puropse)', min_value=1.0, max_value=5.0, value=1.0, step=0.1)
 
     # LOR
-    lor = st.number_input('LOR', min_value=1.0, max_value=5.0, value=1.0, step=0.1)
+    lor = st.number_input('LOR (Letter of Recommendation)', min_value=1.0, max_value=5.0, value=1.0, step=0.1)
 
     # CGPA
     cgpa = st.number_input('CGPA', min_value=1.0, max_value=10.0, value=1.0, step=0.1)
